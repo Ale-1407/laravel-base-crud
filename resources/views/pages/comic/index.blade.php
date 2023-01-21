@@ -3,6 +3,9 @@
 @section('main-content')
 
    <h1 class="my-3">Index Page Comic</h1>
+   <div class="my-3">
+      <a class="btn btn-primary" href="{{route('comics.create')}}">Create Comic</a>
+   </div>
    <div>
     <table class="table">
         <thead>
